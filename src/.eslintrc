@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "plugins": [
+    "chai-friendly",
+  ],
+  "rules": {
+    "no-unused-expressions": 0,
+    "no-underscore-dangle": 0,
+    "chai-friendly/no-unused-expressions": 2
+  }
+}
